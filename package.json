@@ -1,0 +1,16 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "for educational purposes",
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack",
+    "prod": "./node_modules/.bin/webpack -p",
+    "watch": "./node_modules/.bin/webpack --watch"
+  },
+  "author": "Alvaro Farias",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8"
+  }
+}
