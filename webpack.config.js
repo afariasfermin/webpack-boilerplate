@@ -16,9 +16,15 @@ module.exports = {
                 ]
             },
             {
+                exclude: /node_modules/,
+                include: /src/,
                 test: /\.js$/,
-                use: 'babel-loader',
-                exclude: /node_modules/
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['env']
+                    }
+                }
             }
         ]
     },
