@@ -1,7 +1,9 @@
 {
-  "name": "boilerplate",
+  "name": "webpack-boilerplate",
   "version": "1.0.0",
-  "description": "A basic boilerplate for projects",
+  "description": "A basic webpack boilerplate for projects",
+  "author": "Alvaro Farias",
+  "license": "MIT",
   "scripts": {
     "dev": "./node_modules/.bin/webpack",
     "prod": "./node_modules/.bin/webpack -p",
@@ -10,8 +12,6 @@
   "babel": {
     "presets": ["env"]
   },
-  "author": "Alvaro Farias",
-  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
