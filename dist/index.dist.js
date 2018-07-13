@@ -91,8 +91,9 @@
   !*** ./index.js ***!
   \******************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
+"use strict";
 
 
 /***/ })
