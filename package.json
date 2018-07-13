@@ -1,7 +1,7 @@
 {
   "name": "boilerplate",
   "version": "1.0.0",
-  "description": "for educational purposes",
+  "description": "A basic boilerplate for projects",
   "scripts": {
     "dev": "./node_modules/.bin/webpack",
     "prod": "./node_modules/.bin/webpack -p",
