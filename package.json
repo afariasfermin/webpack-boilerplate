@@ -10,14 +10,10 @@
     "watch": "./node_modules/.bin/webpack --watch",
     "server": "./node_modules/.bin/webpack-dev-server --inline --hot"
   },
-  "babel": {
-    "presets": [
-      "env"
-    ]
-  },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "css-loader": "^1.0.0",
     "friendly-errors-webpack-plugin": "^1.7.0",
