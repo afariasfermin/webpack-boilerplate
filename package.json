@@ -5,10 +5,10 @@
   "author": "Alvaro Farias",
   "license": "MIT",
   "scripts": {
-    "dev": "./node_modules/.bin/webpack",
-    "prod": "./node_modules/.bin/webpack -p",
-    "watch": "./node_modules/.bin/webpack --watch",
-    "server": "./node_modules/.bin/webpack-dev-server --inline --hot"
+    "dev": "./node_modules/.bin/webpack --env.mode=development",
+    "prod": "./node_modules/.bin/webpack --env.mode=production -p",
+    "watch": "./node_modules/.bin/webpack --env.mode=development --watch",
+    "server": "./node_modules/.bin/webpack-dev-server --env.mode=development --inline --hot"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
